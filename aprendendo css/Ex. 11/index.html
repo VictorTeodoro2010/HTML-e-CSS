@@ -1,0 +1,112 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Grouping tags</title>
+    <style>
+      body {
+        font-family: Arial, Helvetica, sans-serif;
+        background-color: dimgray;
+        margin: 0px;
+      }
+
+      header > h1 {
+        text-align: center;
+      }
+
+      header {
+        background-color: white;
+        padding: 10px;
+        margin: 10px;
+      }
+
+      nav {
+        background-color: rgb(106, 106, 106);
+        padding: 3px;
+        box-shadow: 0.5px 1px 3px 1px rgba(0, 0, 0, 0.455); /*sombra: horizontal vertical espalhamento tamanho cor*/
+      }
+      nav > a {
+        text-decoration: none;
+        color: white;
+        font-weight: bold;
+        margin-right: 30px;
+      }
+
+      nav > a:hover {
+        text-decoration: underline;
+      }
+      main {
+        background-color: white;
+        padding: 10px;
+        margin: 10px;
+        border-radius: 10px; /*top right bottom left*/
+      }
+
+      article {
+        background-color: lightgray;
+        padding: 5px;
+        border-radius: 10px;
+      }
+
+      footer {
+        background-color: black;
+        color: white;
+        text-align: center;
+        padding: 1px;
+        margin: 0px;
+      }
+
+      footer > p {
+        margin: 0px;
+      }
+
+      #notícias {
+        border-radius: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>Meu site</h1>
+      <nav>
+        <a href="#">Link</a>
+        <a href="#">Link</a>
+        <a href="#">Link</a>
+        <a href="#">Link</a>
+        <a href="#">Link</a>
+      </nav>
+    </header>
+    <main>
+      <section id="Assuntos">
+        <h2>Esporte Tecnologia Política</h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique,
+          aperiam facilis quia ex repellat nam ut, delectus ipsa nostrum iste
+          molestias natus cum sapiente temporibus animi hic perspiciatis
+          dignissimos ullam.
+        </p>
+        <aside>
+          <p>Escrito por Jenifer</p>
+        </aside>
+      </section>
+      <section id="notícias">
+        <article>
+          <h2>Notícia sobre o Brasil</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique,
+            aperiam facilis quia ex repellat nam ut, delectus ipsa nostrum iste
+            molestias natus cum sapiente temporibus animi hic perspiciatis
+            dignissimos ullam.
+          </p>
+          <aside>
+            <p>Artigo escrito por teodoro</p>
+          </aside>
+        </article>
+      </section>
+    </main>
+    <footer>
+      <p>Desenvolvido por VDR ONE</p>
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,16 @@
+@charset "UTF-8";
+
+body{
+    background-color: blue;
+}
+
+H1{
+    color: white;
+    background-color: bisque;
+    text-decoration: underline;
+}
+
+h2{
+    color: brown;
+}
+
