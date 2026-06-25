@@ -1,0 +1,26 @@
+color{
+    color: white;
+    background-color: black;
+    background-imagem: linear-gradient(to right, white, blue);
+    background-attachment: fixed;
+        background-imagem: radial-gradient(circle, white, blue);
+}
+
+tamanho{
+    height: 100%;
+    widht: 100%;
+}
+
+alinhamento{
+    text-align: Center;
+    Margin: Auto;
+}
+
+borda{
+    Border-radius: 10px;
+}
+
+sombra{
+    box-shadow: 1px 1px 1px 1px black;
+    text-shadow: 1px 1px 1px black;
+}
